@@ -1,0 +1,10 @@
+framework module JudoKit {
+  umbrella header "JudoKit.h"
+
+  export *
+  module * { export * }
+}
+
+module JudoKit.Swift {
+    header "JudoKit-Swift.h"
+}
