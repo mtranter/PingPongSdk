@@ -9,7 +9,7 @@
 import Foundation
 import JudoKit
 
-class Paddle {
+public class Paddle {
     func doSomething() {
         let session = JudoKit(token: "bla", secret: "blubb")
         try? session.invokePayment("134134", amount: Amount(amountString: "34.12", currency: .GBP), reference: Reference(consumerRef: "some reference")!) { (response, error) in
