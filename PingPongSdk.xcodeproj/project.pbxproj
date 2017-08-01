@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		E1E50E881F309BCE00E112AC /* PingPongSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E50E861F309BCE00E112AC /* PingPongSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1E50E8F1F309BED00E112AC /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E50E8E1F309BED00E112AC /* Paddle.swift */; };
-		E1E50E981F30A00A00E112AC /* DeviceDNA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E50E921F309ED900E112AC /* DeviceDNA.framework */; };
 		E1E50E991F30A01500E112AC /* JudoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E50E941F309EED00E112AC /* JudoKit.framework */; };
+		E1E50EC31F30B0A800E112AC /* DeviceDNA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E50EC21F30B0A800E112AC /* DeviceDNA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +20,7 @@
 		E1E50E8E1F309BED00E112AC /* Paddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
 		E1E50E921F309ED900E112AC /* DeviceDNA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceDNA.framework; path = "Carthage/Checkouts/devicedna-ios/Framework/DeviceDNA.framework"; sourceTree = "<group>"; };
 		E1E50E941F309EED00E112AC /* JudoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JudoKit.framework; path = Carthage/Build/iOS/JudoKit.framework; sourceTree = "<group>"; };
+		E1E50EC21F30B0A800E112AC /* DeviceDNA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceDNA.framework; path = Carthage/Build/iOS/DeviceDNA.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E50E991F30A01500E112AC /* JudoKit.framework in Frameworks */,
-				E1E50E981F30A00A00E112AC /* DeviceDNA.framework in Frameworks */,
+				E1E50EC31F30B0A800E112AC /* DeviceDNA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +66,7 @@
 		E1E50E911F309ED900E112AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1E50EC21F30B0A800E112AC /* DeviceDNA.framework */,
 				E1E50E941F309EED00E112AC /* JudoKit.framework */,
 				E1E50E921F309ED900E112AC /* DeviceDNA.framework */,
 			);
@@ -155,8 +157,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/JudoKit.framework",
-				"$(SRCROOT)/Carthage/Checkouts/devicedna-ios/Framework/DeviceDNA.framework",
 			);
 			outputPaths = (
 			);

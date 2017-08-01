@@ -1,0 +1,18 @@
+{
+  "iOS" : [
+    {
+      "hash" : "d0f65899400c46c97d991de95c6a0ff9c00aefb68d94ed4e3ccba2e68034c930",
+      "name" : "JudoKit"
+    }
+  ],
+  "commitish" : "6.2.14",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}
